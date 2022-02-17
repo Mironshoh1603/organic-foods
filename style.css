@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.green {
+  color: green;
+  margin: 0px 5px;
+}
+nav img {
+  width: 70px;
+  height: 70px;
+  margin-right: 100px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+}
+nav {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e2e2e;
+  margin: 0 20px;
+}
+nav a:nth-child(6) {
+  margin-right: 200px;
+}
+.slider {
+  width: 100%;
+  /* height: 600px; */
+  background-image: url(img/bgg.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 40px;
+}
+h1 {
+  width: 500px;
+  line-height: 90px;
+  font-size: 70px;
+  /* padding: 80px 0 20px 70px; */
+}
+h1 span {
+  display: block;
+}
+.slider p,
+.slider button {
+  /* margin: 20px 70px; */
+}
+.slider p {
+  font-size: 28px;
+  width: 500px;
+  line-height: 40px;
+}
+h1 span {
+  color: #fcb827;
+}
+.btn {
+  width: 180px;
+  height: 55px;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  background-color: #02a056;
+  color: #fff;
+}
+.title {
+  margin: 80px 0 40px 0;
+}
+.title h2 {
+  font-size: 50px;
+}
+.service img {
+  width: 80px;
+  height: 80px;
+}
+.services,
+.product1,
+.product2,
+.hot_deal,
+.best_seller,
+.trend1 {
+  display: flex;
+  justify-content: center;
+}
+.service {
+  text-align: center;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  padding: 40px 0;
+}
+.service h3 {
+  font-size: 22px;
+}
+.service p {
+  width: 200px;
+}
+.service h3,
+.service p {
+  margin: 20px auto;
+}
+.title p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fcb827;
+}
+.product img {
+  width: 200px;
+  height: 200px;
+  padding: 30px 40px 60px 40px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.product div {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #fe7845;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.products {
+  position: relative;
+}
+.service,
+.product,
+.seller {
+  width: 280px;
+  margin: 0 12px;
+}
+.product div p {
+  margin-top: 13px;
+  font-size: 16px;
+  color: #fff !important;
+}
+.product h4,
+.product p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.product p:last-child {
+  color: #02a056;
+}
+.product2 {
+  margin-top: 30px;
+}
+.btn_center {
+  text-align: center;
+  margin: 30px auto;
+}
+.deal img {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+.deal {
+  position: relative;
+  margin: 0 20px;
+  width: 600px;
+  height: 300px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding-left: 30px;
+}
+.deal h5,
+.deal p {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.deal button {
+  margin-top: 40px;
+}
+.seller img {
+  width: 200px;
+  height: 200px;
+}
+.seller {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+.seller h4,
+.seller p,
+.trend h6,
+.trend p {
+  margin: 10px 0;
+  font-size: 22px;
+}
+.seller p {
+  color: #02a056;
+}
+.trend1 img {
+  width: 150px;
+  height: 150px;
+}
+.trend p {
+  color: #02a056;
+}
+.trend h6 {
+  margin-top: 50px;
+}
+.trend,
+.trend1 img {
+  margin-left: 35px;
+}
+.trend1 {
+  margin-top: 30px;
+}
+.review {
+  background-color: #fff9f3;
+  padding: 70px;
+}
+.customer img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.review h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.comment {
+  width: 600px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 50px;
+  margin: 40px auto;
+}
+.comment p:first-child {
+  width: 380px;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 auto;
+}
+.customer {
+  display: flex;
+  margin: 50px 0 30px 170px;
+}
+.name {
+  margin-left: 20px;
+}
+.name h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 80px 10px 80px;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+}
+.footer {
+  display: flex;
+  margin-left: 80px;
+}
+.about {
+  margin: 0 50px;
+}
+.about h5 {
+  font-size: 20px;
+}
+.about h5,
+.about p {
+  margin: 15px 0;
+}
+.copy {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 18px;
+}
